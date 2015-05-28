@@ -1033,7 +1033,11 @@ textarea { height:130px; width:100% !important; }
 
 /** TOP AGENTS **/
 .topAgents {
+<<<<<<< HEAD
 	padding:70px 0px 10px 0px;
+=======
+	padding:70px 0px 70px 0px;
+>>>>>>> a1af87b425f70f5e99375805885469d3d2591269
 	color:white;
 	text-align:center;
 	background-image: url('../images/topAgents-bg.png');
