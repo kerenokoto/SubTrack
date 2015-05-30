@@ -1,3 +1,120 @@
 .subHeader.home {
-	margin-top: 72px;
+	margin-top: 0px;
+}
+
+.nav.navbar-nav li a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 0px;
+}
+section.subHeader.home{
+	height: 90%;
+}
+
+.contentHolder{
+	height: 100%;
+	background-color: #333333;
+	overflow: hidden;
+}
+
+.contentHolder .titleHeader{
+	font-weight: bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0px;
+	padding: 0px;
+	transform: translate3d(-50%,-50%,0);
+	text-align: center;
+	z-index: 90;
+}
+
+.contentHolder .titleHeader [id^="slide"]{
+	font-size: 40px;
+	color: #F0F0F0;
+	font-weight: 100;
+}
+
+input{
+	width: auto; 
+	padding: 8px; 
+	margin-bottom: 0px; 
+	border-radius: 0px; 
+	border: 1px solid #c9c9c9; 
+	box-shadow: 0 1px 1px white; 
+}
+
+button, input[type='submit']{
+	background-color: #81BE32;
+	color: #FFF;
+	padding: 12px 40px;
+	border: 0px;
+	font-weight: bolder;
+	height: 100%;
+	
+	padding: 12px 0px;
+	letter-spacing: 0.059em;
+}
+
+.notify{
+	border: 1px #81BE32 solid;
+	width: 55%;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 44px;
+	border-radius: 5px;
+}
+
+.notify input{
+	height: 100%;
+	box-shadow: none;
+	border: none;
+	background-color: transparent;
+	width: 70%;
+	float: left;
+	padding: 12px 20px;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.notify button{
+	height: 100%;
+	float: right;
+	width: 30%;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.contentHolder .titleHeader2{
+	position: absolute;
+	z-index: 80;
+	top: 64%;
+	right: 12px;
+}
+
+.titleHeader2 img{
+	width: 650px;
+}
+
+section.bigMessage {
+	padding: 15% 0px;
+	padding-bottom: 10%;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+	background-color: #333;
+}
+
+footer {
+	background-color: #333;
+}
+
+.bottomBar {
+	background-color: #222;
+}
+
+.callToAction {
+	text-align: center;
+	padding: 7%;
 }

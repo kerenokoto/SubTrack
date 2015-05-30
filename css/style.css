@@ -455,7 +455,7 @@ textarea { height:130px; width:100% !important; }
 
 .subHeader.home.bxslider .container { padding:90px 0px 150px 0px; }
 
-#slide1 {
+/*#slide1 {
 	background-image: url('../images/slider-bg4.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -471,7 +471,7 @@ textarea { height:130px; width:100% !important; }
 	background-image: url('../images/slider-bg6.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
-}
+}*/
 
 .subHeader.home.headerMinimal {
 	margin-top:71px;
@@ -1007,7 +1007,7 @@ textarea { height:130px; width:100% !important; }
  /* 08 SERVICES
 /*====================================================================================*/
 
-.services { padding:70px 0px 70px 0px; text-align:center; }
+.services {  background: #f7f7f7; padding:70px 0px 70px 0px; text-align:center; }
 
 .services .col-lg-4.col-md-4.col-sm-4 { margin-bottom:30px; }
 
